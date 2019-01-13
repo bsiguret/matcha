@@ -1,0 +1,96 @@
+.background-image {
+	background: url(/images/indexbackground.jpg) no-repeat center top fixed, rgba(192,192,192,1); 
+	background-size: cover;
+	background-blend-mode: multiply;
+	position: fixed; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%;
+  z-index: 1;
+  line-height: 1.5;
+}
+
+.title_index {
+  margin-left: -1.5vh;
+  text-align: center;
+  font-family: Avenir;
+  font-style: oblique;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0.59px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+}
+
+.substitle_index {
+  margin-left: -1vh;
+  text-align: center;
+  min-width: 146px;
+  opacity: 0.85;
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.67px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+}
+
+.wrapper_index {
+  width: 100%;
+	margin: 25vh auto 0px auto;
+	text-align: center;
+  position: relative;
+}
+
+.closebutton {
+  text-align: right;
+  position:relative;
+  top: -14px;
+  left: 16px;
+}
+
+.button.ui.fluid.button.o-resetbutton {
+  margin-top: 13px;
+}
+
+.ui.segment.o-signSegment {
+  min-width: 243px;
+  margin-left: -1vh;
+}
+
+button.ui.fluid.button.o-emailButton {
+  margin-top: 13px;
+}
+
+@media only screen and (max-width: 425px) {
+	.wrapper_index {
+		width: 312px;
+		margin: 25vh auto 0px auto;
+		text-align: center;
+		position: relative;
+  }
+  .ui.segment.o-signSegment {
+    min-width: 243px;
+    left: -10vh;
+  }
+  .substitle_index {
+    margin-left: -2vh;
+    min-width: 146px;
+    opacity: 0.85;
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.67px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+  }
+  .title_index {
+    margin-left: -3.5vh;
+    font-family: Avenir;
+    font-style: oblique;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0.59px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+  }
+}

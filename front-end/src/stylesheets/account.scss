@@ -1,0 +1,146 @@
+@import "~react-datepicker/dist/react-datepicker.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.d-account {
+	display: flex;
+	width: 100%;
+  align-items: center;
+	justify-content: center;
+}
+
+.o-editicon {
+	position: relative;
+	top: 29px;
+	left: 8px;
+	z-index: 1;
+	color: #747577;
+}
+
+.o-hearticon {
+	position: relative;
+	top: 37px;;
+	left: 8px;
+	z-index: 1;
+}
+
+.o-deletepics {
+	position: relative;
+	z-index: 1;
+}
+
+.o-report {
+	top: -15px;
+	right: -7px;
+	float: right;
+}
+
+.pulse {
+	animation: pulse_animation 1s ease-out;
+	animation-duration: 5000ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	opacity: 0.0;
+}
+
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	4% { transform: scale(1.25); }
+	6% { transform: scale(1); }
+}
+
+.o-photoupload {
+	display: flex;
+	.img-photo-deleter {
+		width: 150px;
+		height: 150px;
+		top: -21px;
+	}
+}
+
+.account-card-bio {
+	word-break: break-word;
+}
+
+.ui.top.right.pointing.dropdown.headermenu{
+	top: 9px;
+	left: -10px;
+}
+
+.o-closeedit{
+	position: relative;
+	top: 33px;
+	left: 2px;
+	z-index: 1;
+}
+
+.accountVisits {
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+	height: 450px;
+	max-width: 400px;
+}
+.o-account-wrapper {
+	// min-width: 250px;
+	// max-width: 432px;
+	display: flex;
+}
+.column.o-segment-visits {
+	display: flex;
+	min-width: 250px;
+	max-width: 400px;
+}
+
+.column.accountCard {
+	display: flex;
+	justify-content: center;
+	max-width: 400px;
+}
+
+.column.accountEdit {
+	display: flex;
+	// z-index: -1;
+	min-width: 350px;
+}
+
+@media only screen and (max-width: 766px) {
+	.o-account-wrapper {
+		min-width: 250px;
+    max-width: 432px;
+		margin: 0 auto;
+		display: block;
+	}
+	.column.accountCard {
+		min-width: 250px;
+    max-width: 432px;
+    margin: 0 auto;
+	}
+	.column.accountEdit {
+		min-width: 250px;
+    max-width: 432px;
+		margin: 0 auto;
+		.o-photoupload div img {
+			width: 125px;
+			height: 125px;
+		}
+	}
+
+	.ui.segment.o-segment-visits {
+		min-width: 250px;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.accountVisits {
+		margin: 0 auto;
+	}
+
+	.d-account {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 0px;
+	}
+}

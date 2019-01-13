@@ -1,0 +1,48 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "opencage-api-client": "^0.3.0",
+    "rc-slider": "^8.6.3",
+    "react": "^16.3.2",
+    "react-avatar-editor": "^11.0.4",
+    "react-datepicker": "^1.7.0",
+    "react-dom": "^16.3.2",
+    "react-dropzone": "^7.0.1",
+    "react-loadable": "^5.4.0",
+    "react-md-spinner": "^0.3.0",
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.0.4",
+    "react-slick": "^0.23.2",
+    "react-toastify": "^4.4.0",
+    "react-transition-group": "^1.2.1",
+    "redux": "^4.0.0",
+    "redux-devtools": "^3.4.1",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.2.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8082",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

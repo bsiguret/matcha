@@ -1,0 +1,81 @@
+.o-leftHome {
+	width: 25em;
+	max-height: 1000px;
+	align-self: center;
+	margin-left: 15px;
+	.home-card {
+		display: relative;
+		justify-content: center;
+		max-width: 400px;
+		.ui-fluid-card-home{
+			top: -6px;
+		}
+		.o-hearticon {
+			position: absolute;
+			top: 37px;;
+			left: 21px;
+			z-index: 1;
+		}
+	}
+}
+
+.o-rightHome {
+	width: 100%;
+	align-self: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.searchCard {
+	display: flex;
+	margin-top: 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: #747577;
+}
+
+button.slick-arrow.slick-next {
+	right: 10px;
+}
+
+button.slick-arrow.slick-prev {
+	left: 10px;
+	position: absolute;
+	z-index: 2;
+}
+
+.o-home-wrapper {
+	display: flex;
+	.home-spinner {
+		align-self: center;
+	}
+}
+
+.home-card-bio {
+	word-break: break-word;
+}
+
+.mobileSearchCard {
+	width: 100%;
+	margin-top: -15px;
+	.home-mobile-noresult {
+		text-align: center;
+		height: 700px;
+	}
+	.o-home-mobile-heart {
+    position: absolute;
+    top: 20px;
+		right: 14px;
+		z-index: 1;
+	}
+	.account-card-bio {
+		word-break: break-word;
+	}
+	.o-home-mobile-close {
+		position: absolute;
+		top: 20px;
+    left: 14px;
+		z-index: 1;
+	}
+}

@@ -35,6 +35,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+/front-end/node_modules
+/build
 
 # TypeScript v1 declaration files
 typings/
@@ -56,6 +58,10 @@ typings/
 
 # dotenv environment variables file
 .env
+/front-end/.env
 
 # next.js build output
 .next
+
+# miscs
+.DS_Store
