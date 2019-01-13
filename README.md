@@ -51,8 +51,8 @@ Writen by [@bsiguret](https://github.com/bsiguret/) and [@nrandria](https://gith
 
 ![1](https://i.ibb.co/JRMx26F/Screen-Shot-2019-01-13-at-3-09-04-PM.png)
 
-![4](https://i.ibb.co/JmmbThm/Screen-Shot-2019-01-13-at-3-03-29-PM.png)
+![1](https://i.ibb.co/JmmbThm/Screen-Shot-2019-01-13-at-3-03-29-PM.png)
 
-![4](https://i.ibb.co/ZVfMXg2/Screen-Shot-2019-01-13-at-3-05-04-PM.png)
+![1](https://i.ibb.co/ZVfMXg2/Screen-Shot-2019-01-13-at-3-05-04-PM.png)
 
 ![4](https://i.ibb.co/dLK7pzB/Screen-Shot-2019-01-13-at-3-06-02-PM.png)
